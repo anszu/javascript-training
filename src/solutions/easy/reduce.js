@@ -1,10 +1,11 @@
 // reduce - Implement the reduce function.
 
-const reduce = (arr, func, numb) => {
-    console.log(arr);
-    console.log(func);
-    console.log(numb);
-    return (numb);
+const reduce = (arr, func, initial) => {
+    let count = initial;
+    arr.forEach((el) => {
+        count = func(count, el);
+    });
+    return (count);
 };
 
 module.exports = reduce;

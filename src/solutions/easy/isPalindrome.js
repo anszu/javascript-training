@@ -2,9 +2,8 @@
 // whether the given string is a plaindrone (case and space insensitive).
 
 const isPalindrome = (str) => {
-    const bool = false;
-    console.log(str);
-    return (bool);
+    const arr = str.toLowerCase().split('').filter(el => el !== ' ');
+    return arr.join('') === arr.reverse().join('');
 };
 
 module.exports = isPalindrome;

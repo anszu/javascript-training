@@ -1,8 +1,9 @@
 // indexOf - Implement the indexOf function for arrays.
 
-const indexOf = (arr, index) => {
+const indexOf = (arr, element) => {
+    const index = 0;
     console.log(arr);
-    console.log(index);
+    console.log(element);
     return (index);
 };
 

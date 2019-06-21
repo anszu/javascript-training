@@ -2,20 +2,17 @@
 
 const mostUsedWord = (str) => {
     const arr = str.split(' ');
-    const countObj = {};
-
+    const count = {};
     arr.forEach((element) => {
-        const el = element;
-        countObj[el] = 0;
-
-        arr.forEach((compareEl) => {
-            if (el === compareEl) {
-                countObj[el] += 1;
+        count[element] = 0;
+        arr.forEach((el) => {
+            if (el === element) {
+                count[element] += 1;
             }
         });
     });
-
-    return (countObj);
+    const word = Object.keys(count).reduce((a, b) => (count[a] > count[b] ? a : b));
+    return (word);
 };
 
 module.exports = mostUsedWord;

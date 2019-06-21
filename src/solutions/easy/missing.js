@@ -4,9 +4,10 @@
 // Can you do it in O(N) time? Hint: There’s a clever formula you can use.
 
 const missing = (arr) => {
-    const numb = false;
-    console.log(arr);
-    return (numb);
+    arr.sort((a, b) => a - b);
+    if (arr[0] !== 1 && arr[0] !== undefined) { return 1; }
+    const numb = arr.find((el, i) => el + 1 !== arr[i + 1] && i + 1 < arr.length);
+    return numb ? numb + 1 : undefined;
 };
 
 module.exports = missing;

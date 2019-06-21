@@ -2,9 +2,12 @@
 // its curly braces are balanced.
 
 const isBalanced = (str) => {
-    const bool = false;
-    console.log(str);
-    return (bool);
+    let bool = true;
+    const newStr = str.split('').filter(e => e === '{' || e === '}');
+    if (newStr.length % 2 > 0 || newStr.findIndex(el => el === '{') > newStr.findIndex(el => el === '}')) {
+        bool = false;
+    }
+    return bool;
 };
 
 module.exports = isBalanced;
