@@ -12,3 +12,7 @@ be found [here](https://github.com/bcherny/frontend-interview-questions).
 3. Run ```npm run test```
 4. Fix tests by fixing the functions
 
+## Environment
+
+Testing is done with [Jest](https://github.com/facebook/jest) and via [Babel](https://github.com/babel/babel), so feel free to use the latest JS functionalities. There is also [Eslint](https://github.com/eslint/eslint) in place using [airbnb's linting scheme](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb).
+
