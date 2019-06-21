@@ -2,6 +2,7 @@
 
 Training setup for programming tasks by Boris Cherny found [here](https://performancejs.com/post/hde6d32/The-Best-Frontend-JavaScript-Interview-Questions-(Written-by-a-Frontend-Engineer)).
 Tests and function bodies are provided, so you can start the testrunner and try to fix the functions. Functions are minimally filled with some console logging to make the linter pass.
+
 My own solutions are stored in [solutions](https://github.com/anszu/javascript-training/tree/master/src/solutions) but the most elegant communizy-driven solutions can
 be found [here](https://github.com/bcherny/frontend-interview-questions).
 
