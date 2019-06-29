@@ -1,6 +1,6 @@
 # Javascript Training Tasks
 
-Training setup for programming tasks by Boris Cherny found [here](https://performancejs.com/post/hde6d32/The-Best-Frontend-JavaScript-Interview-Questions-(Written-by-a-Frontend-Engineer)).
+Training setup for programming tasks (most by Boris Cherny found [here](https://performancejs.com/post/hde6d32/The-Best-Frontend-JavaScript-Interview-Questions-(Written-by-a-Frontend-Engineer))).
 Tests and function bodies are provided, so you can start the testrunner and try to fix the functions. Functions are minimally filled with some console logging to make the linter pass.
 
 My own solutions are stored in [solutions](https://github.com/anszu/javascript-training/tree/master/src/solutions) but the most elegant community-driven solutions can
@@ -17,3 +17,8 @@ be found [here](https://github.com/bcherny/frontend-interview-questions).
 
 Testing is done with [Jest](https://github.com/facebook/jest) and via [Babel](https://github.com/babel/babel), so feel free to use the latest JS functionalities. There is also [Eslint](https://github.com/eslint/eslint) in place using [airbnb's linting scheme](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb).
 
+
+---
+I'm also on Codewars:
+
+![Codewars](https://www.codewars.com/users/anszu/badges/small)
